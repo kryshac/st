@@ -6,6 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  *
  * install pacman font
+ * yay -Sy libxft-bgra
+ * yay -Sy ttf-joypixels
  * yay -Sy --noconfirm ttf-meslo-nerd-font-powerlevel10k
  */
 static char *font = "MesloLGS NF:pixelsize=14:antialias=true:autohint=true";
