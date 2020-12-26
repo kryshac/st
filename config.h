@@ -4,8 +4,11 @@
  * appearance
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+ *
+ * install pacman font
+ * yay -Sy --noconfirm ttf-meslo-nerd-font-powerlevel10k
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "MesloLGS NF:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
 static int borderpx = 2;
 
