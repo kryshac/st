@@ -32,3 +32,5 @@ Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
 
+Apply patch
+$ patch -p1 < patch-1.0.diff
