@@ -1,0 +1,13 @@
+diff --git a/config.def.h b/config.def.h
+index a424b7f..032cd1a 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -13,7 +13,7 @@ static char *font2[] = {
+ 	"MesloLGS NF:pixelsize=14:antialias=true:autohint=true",
+ };
+ 
+-static int borderpx = 2;
++static int borderpx = 0;
+ 
+ /*
+  * What program is execed by st depends of these precedence rules:
