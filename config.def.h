@@ -206,8 +206,8 @@ static MouseShortcut mshortcuts[] = {
 #define MODKEY Mod1Mask
 #define TERMMOD (ControlMask|ShiftMask)
 
-static char *copyoutput[] = { "/bin/sh", "-c", "scripts/copy-output.sh", "externalpipe", NULL };
-static char *openurlcmd[] = { "/bin/sh", "-c", "scripts/urlhandler.sh -o", "externalpipe", NULL };
+static char *copyoutput[] = { "/bin/sh", "-c", "copy-output", "externalpipe", NULL };
+static char *openurlcmd[] = { "/bin/sh", "-c", "urlhandler -o", "externalpipe", NULL };
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */

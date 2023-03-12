@@ -6,7 +6,7 @@ index c18471b..0cd0178 100644
  #define MODKEY Mod1Mask
  #define TERMMOD (ControlMask|ShiftMask)
  
-+static char *copyoutput[] = { "/bin/sh", "-c", "scripts/copy-output.sh", "externalpipe", NULL };
++static char *copyoutput[] = { "/bin/sh", "-c", "copy-output", "externalpipe", NULL };
 +
  static Shortcut shortcuts[] = {
  	/* mask                 keysym          function        argument */
