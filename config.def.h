@@ -113,34 +113,65 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
+// static const char *colorname[] = {
+// 	/* 8 normal colors */
+// 	"#000000", /* black   */
+// 	"#CD3131", /* red     */
+// 	"#0DBC79", /* green   */
+// 	"#E5E510", /* yellow  */
+// 	"#2472C8", /* blue    */
+// 	"#BC3FBC", /* magenta */
+// 	"#11A8CD", /* cyan    */
+// 	"#E5E5E5", /* white   */
+
+// 	/* 8 bright colors */
+// 	"#666666", /* black   */
+// 	"#F14C4C", /* red     */
+// 	"#23D18B", /* green   */
+// 	"#F5F543", /* yellow  */
+// 	"#3B8EEA", /* blue    */
+// 	"#D670D6", /* magenta */
+// 	"#29B8DB", /* cyan    */
+// 	"#E5E5E5", /* white   */
+
+// 	[255] = 0,
+
+// 	/* more colors can be added after 255 to use with DefaultXX */
+// 	"#c5c8c6", /* 256 -> cursor */
+// 	"#929493", /* 257 -> rev cursor*/
+// 	"#d8d8d8", /* 258 -> fg */
+// 	"#1d252c", /* 259 -> bg */
+// };
+
+// https://github.com/folke/tokyonight.nvim night
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"#000000", /* black   */
-	"#CD3131", /* red     */
-	"#0DBC79", /* green   */
-	"#E5E510", /* yellow  */
-	"#2472C8", /* blue    */
-	"#BC3FBC", /* magenta */
-	"#11A8CD", /* cyan    */
-	"#E5E5E5", /* white   */
+    /* 8 normal colors */
+    "#000000", /* black   */
+    "#CD3131", /* red     */
+    "#0DBC79", /* green   */
+    "#E5E510", /* yellow  */
+    "#2472C8", /* blue    */
+    "#BC3FBC", /* magenta */
+    "#11A8CD", /* cyan    */
+    "#E5E5E5", /* white   */
 
-	/* 8 bright colors */
-	"#666666", /* black   */
-	"#F14C4C", /* red     */
-	"#23D18B", /* green   */
-	"#F5F543", /* yellow  */
-	"#3B8EEA", /* blue    */
-	"#D670D6", /* magenta */
-	"#29B8DB", /* cyan    */
-	"#E5E5E5", /* white   */
+    /* 8 bright colors */
+    "#666666", /* black   */
+    "#F14C4C", /* red     */
+    "#23D18B", /* green   */
+    "#F5F543", /* yellow  */
+    "#3B8EEA", /* blue    */
+    "#D670D6", /* magenta */
+    "#29B8DB", /* cyan    */
+    "#E5E5E5", /* white   */
 
-	[255] = 0,
+    [255] = 0,
 
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#c5c8c6", /* 256 -> cursor */
-	"#929493", /* 257 -> rev cursor*/
-	"#d8d8d8", /* 258 -> fg */
-	"#1d252c", /* 259 -> bg */
+    /* more colors can be added after 255 to use with DefaultXX */
+    "#c0caf5",
+    "#33467c",
+    "#c0caf5", /* default foreground colour */
+    "#1a1b26", /* default background colour */
 };
 
 
